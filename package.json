@@ -1,0 +1,12 @@
+{
+  "name": "concurso-piloto-eduar-jimenez-astronomia",
+  "private": true,
+  "version": "1.1.0",
+  "type": "module",
+  "scripts": {
+    "audit": "node scripts/audit-questions.mjs",
+    "build": "npm run audit && node scripts/build-static.mjs",
+    "dev": "node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs"
+  }
+}
